@@ -1,0 +1,17 @@
+pkgbase = android-camerarecorder
+	pkgdesc = Android camera recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-camerarecorder
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = android-recorder
+	depends = libcrash-bash
+	depends = record-tools
+	source = android-camerarecorder-2b2d2ee8d18ffc62443d3ea87c97974ba759466a.zip::https://github.com/themartiancompany/android-camerarecorder/archive/2b2d2ee8d18ffc62443d3ea87c97974ba759466a.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 66ccf9973d2df4b2d4d9c40d09ead1bb97ee29dd7491bb0903f4c2a438d30e2a
+
+pkgname = android-camerarecorder
