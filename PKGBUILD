@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=android-camera-recorder
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="2b2d2ee8d18ffc62443d3ea87c97974ba759466a"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="ebce1ccc46266fcf6a59df0bbe4d9e07d7205816"
 pkgrel=1
 _pkgdesc=(
   "Android camera recorder."
@@ -70,7 +70,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="66ccf9973d2df4b2d4d9c40d09ead1bb97ee29dd7491bb0903f4c2a438d30e2a"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="66ccf9973d2df4b2d4d9c40d09ead1bb97ee29dd7491bb0903f4c2a438d30e2a"
+    _sum="75ba82cc0719382ad7b42d83dcd6be816ae0ae69295e1a32efd504fd8a5b0acf"
   fi && \
     source+=(
       "${_tar}"
