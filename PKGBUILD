@@ -5,7 +5,7 @@
 
 _offline="false"
 _git="false"
-pkgname=android-camerarecorder
+pkgname=android-camera-recorder
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
 _commit="2b2d2ee8d18ffc62443d3ea87c97974ba759466a"
 pkgrel=1
